@@ -13,13 +13,13 @@
   scroll-behavior: smooth;
  }
 
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Shrikhand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Raleway:wght@500&family=Work+Sans:wght@700&display=swap');
 
   
 body {
   font-family: "Raleway", sans-serif;
-  color: #444444;
-  background-color: #F6E6C7
+  color: #16423D;
+  background-color: #FFF6E0
 }
 
 a {
@@ -33,10 +33,9 @@ a:hover {
 }
 
 h1,
-h5,
 h6 {
   font-family: "Shrikhand";
-  color: #053316;
+  color: #FF3600;
 }
 
 h2 {
@@ -46,6 +45,22 @@ h2 {
 h3,
 h4{
   font-family: "Work Sans";
+  text-align: center;
+  color:#F12525
+}
+h5 {
+  color: #16423D;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 127%; /* 26.67px */}
+p {
+  font-family: "Raleway", sans-serif;
+  margin-top: 0;
+  color: #16423D
 }
 /*--------------------------------------------------------------
 # Sections
@@ -75,7 +90,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #23c96e;
 }
 
 @media (max-width: 768px) {
@@ -490,7 +505,7 @@ section {
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  color: #FF3600;
+  color: #F1DAAE;
 }
 
 .hero h2 {
@@ -503,15 +518,15 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 28px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  background: #ffb90f;
+  box-shadow: 0px 5px 30px #053316;
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Worksans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -598,16 +613,16 @@ section {
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+  color: #16423D
 }
 
 .about .btn-read-more {
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 28px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  background: #053316;
 }
 
 .about .btn-read-more span {
@@ -639,7 +654,7 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #F12525;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -698,7 +713,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+text-align: left;
   font-weight: 700;
   margin: 0;
 }
@@ -991,7 +1006,7 @@ section {
 
 .pricing h3 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 21x;
   margin-bottom: 15px;
 }
 
@@ -1129,8 +1144,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #FF3600;
+  border-color: #FF3600;
 }
 
 .portfolio #portfolio-flters li:last-child {
