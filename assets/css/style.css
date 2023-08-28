@@ -254,10 +254,10 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -273,22 +273,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
-}
-
-.navbar .getstarted,
-.navbar .getstarted:focus {
-  background: #4154f1;
-  padding: 8px 20px;
-  margin-left: 30px;
-  border-radius: 4px;
-  color: #fff;
-}
-
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #5969f3;
+  color: #FA003C;
 }
 
 .navbar .dropdown ul {
@@ -325,7 +310,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #4154f1;
+  color: #FFF6E0;
 }
 
 .navbar .dropdown:hover>ul {
@@ -1462,7 +1447,7 @@ color: #FF3600;
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
+  background: #F7941D;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
 }
@@ -1517,7 +1502,7 @@ color: #FF3600;
 }
 
 .team .member .member-info h4 {
-  font-weight: 700;
+  font-weight: 1000;
   margin-bottom: 5px;
   font-size: 20px;
   color: #012970;
@@ -1527,7 +1512,7 @@ color: #FF3600;
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #04382B;
 }
 
 .team .member .member-info p {
@@ -2273,7 +2258,7 @@ color: #FF3600;
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #04382B;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
@@ -2329,9 +2314,9 @@ color: #FF3600;
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: #04382B;
   background-size: contain;
-  border-top: 1px solid #e1ecff;
+  border-top: 0px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
   padding: 60px 0 30px 0;
 }
@@ -2360,7 +2345,7 @@ color: #FF3600;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #fff6e0;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -2375,20 +2360,20 @@ color: #FF3600;
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: #fff6e0;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: #fff6e0;
 }
 
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #FFF6E0;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2422,14 +2407,14 @@ color: #FF3600;
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: #FFF6E0;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: #FFF6E0;
 }
 
 .footer .footer-top .footer-contact p {
@@ -2439,12 +2424,12 @@ color: #FF3600;
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  color: #FFF6E0;
 }
 
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #FFF6E0;
 }
