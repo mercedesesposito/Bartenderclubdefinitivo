@@ -1007,14 +1007,19 @@ text-align: left;
 .pricing h3 {
   font-weight: 700;
   font-size: 21x;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
-
+.pricing h5 {
+  font-weight: 700;
+  font-size: 21x;
+  margin-bottom: 25px;
+}
 .pricing .price {
   font-size: 36px;
-  color: #444444;
+  color: #F12525;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 10px
 }
 
 .pricing .price sup {
@@ -1038,7 +1043,7 @@ text-align: left;
   list-style: none;
   color: #444444;
   text-align: center;
-  line-height: 26px;
+  line-height: 18px;
   font-size: 16px;
   margin-bottom: 25px;
 }
@@ -1056,18 +1061,18 @@ text-align: left;
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #04382B ;
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #04382B;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: #04382B;
   color: #fff;
 }
 
@@ -1080,7 +1085,7 @@ text-align: left;
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #4154f1;
+  background: #940F22;
   color: #fff;
 }
 
