@@ -597,8 +597,13 @@ section {
 
 .about p {
   margin: 15px 0 30px 0;
-  line-height: 24px;
-  color: #16423D
+  color: #16423D;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 127%; /* 26.67px */
 }
 
 .about .btn-read-more {
@@ -967,7 +972,7 @@ text-align: left;
 }
 
 /*--------------------------------------------------------------
-# Pricing
+#suscripciones
 --------------------------------------------------------------*/
 .pricing{background-color: #F7941D;
   padding-bottom: 130px;
@@ -1026,7 +1031,7 @@ text-align: left;
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #16423D;
   text-align: center;
   line-height: 18px;
   font-size: 16px;
@@ -1365,7 +1370,7 @@ text-align: left;
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #F7941D;
   margin: 0 1px;
 }
 
@@ -1404,11 +1409,11 @@ text-align: left;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #04382B;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #04382B;
 }
 
 .testimonials .swiper-slide {
@@ -1433,7 +1438,7 @@ text-align: left;
 }
 
 /*--------------------------------------------------------------
-# Team
+# recetas
 --------------------------------------------------------------*/
 .team {
   background: #940F22;
@@ -1516,11 +1521,10 @@ color: #FF3600;
 }
 
 .team .member .member-info p {
-  font-style: italic;
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: #5e5e5e;
+  color: #16423D;
 }
 
 .team .member:hover {
