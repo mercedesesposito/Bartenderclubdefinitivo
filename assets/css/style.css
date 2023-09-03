@@ -34,7 +34,7 @@ a:hover {
 
 h1,
 h6 {
-  font-family: "Shrikhand";
+  font-family: 'Caprasimo', cursive;
   color: #FF3600;
 }
 
@@ -971,6 +971,11 @@ text-align: left;
 .services .service-box:hover .icon {
   background: #fff;
 }
+
+/*--------------------------------------------------------------
+#Banner
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 #suscripciones
