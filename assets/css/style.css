@@ -257,7 +257,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
+  color:#f5cc6d;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -2472,7 +2472,9 @@ color: #FF3600;
 }
 
 .footer .footer-top .footer-contact p {
-  line-height: 26px;
+  color: #FFF6E0;
+  line-height: 18px;
+  
 }
 
 .footer .copyright {
