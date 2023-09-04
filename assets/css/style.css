@@ -1119,7 +1119,7 @@ text-align: left;
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #940F22;
+  background: #F12525;
   color: #fff;
 }
 
@@ -1127,30 +1127,34 @@ text-align: left;
 # F.A.Q
 --------------------------------------------------------------*/
 .faq .accordion-collapse {
+  background-color: #FFF6E0 ;
   border: 0;
 }
 
 .faq .accordion-button {
-  padding: 15px 15px 20px 0;
-  font-weight: 600;
+  background-color: #FFF6E0 ;
+  padding: 15px 15px 20px 15px;
+ font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: #16423D;
   text-align: left;
 }
 
 .faq .accordion-button:focus {
+  background-color: #FFF6E0 ;
   box-shadow: none;
 }
 
 .faq .accordion-button:not(.collapsed) {
-  background: none;
-  color: #4154f1;
+  background-color: #FFF6E0 ;
+  color: #F12525;
   border-bottom: 0;
 }
 
 .faq .accordion-body {
-  padding: 0 0 25px 0;
+  background-color: #FFF6E0 ;
+  padding: 15px 15px 20px 15px;
   border: 0;
 }
 
