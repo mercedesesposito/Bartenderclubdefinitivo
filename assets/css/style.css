@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #04382B;
   text-decoration: none;
 }
 
@@ -725,7 +725,7 @@ text-align: left;
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: #04382B;
   color: #fff;
 }
 
@@ -734,7 +734,7 @@ text-align: left;
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #04382B;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -755,7 +755,7 @@ text-align: left;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #04382B;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -763,15 +763,15 @@ text-align: left;
 }
 
 .features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
+  color: #04382B;
+  border-bottom: 3px solid #04382B;
 }
 
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #04382B;
 }
 
 .features .feture-tabs .tab-content i {
@@ -786,7 +786,7 @@ text-align: left;
 }
 
 .features .feature-icons h3 {
-  color: #FA003C;
+  color: #F12525;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -809,13 +809,13 @@ text-align: left;
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #FA003C;
+  color: #F12525;
 }
 
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #FA003C;
+  color: #F12525;
   margin-right: 15px;
 }
 
@@ -983,12 +983,13 @@ text-align: left;
 #Banner
 --------------------------------------------------------------*/
 #cta {
-  background: url(../img/tu-imagen.jpg) fixed;
+  background: url(../img/tu-imagen.jpg);
   background-size: cover;
+  height: 250px;
 }
 
-#cta h5 {
-  color: #fff;
+#cta h1 {
+  color: #FFF6E0;;
   font-size: 32px;
   font-weight: 500;
   line-height: 48px;
@@ -1262,12 +1263,12 @@ text-align: left;
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #04382B;
   font-weight: 700;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: #04382B;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1282,7 +1283,7 @@ text-align: left;
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #04382B;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1299,7 +1300,7 @@ text-align: left;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #04382B;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -1349,11 +1350,11 @@ text-align: left;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #04382B;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #04382B;
 }
 
 .portfolio-details .portfolio-info {
