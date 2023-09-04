@@ -982,6 +982,36 @@ text-align: left;
 /*--------------------------------------------------------------
 #Banner
 --------------------------------------------------------------*/
+#cta {
+  background: url(../img/tu-imagen.jpg) fixed;
+  background-size: cover;
+}
+
+#cta h5 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+#cta .btn {
+  margin: 30px 10px;
+}
+
+.call-action {
+  background: #f9f9f9;
+}
+
+.call-action .cta-trial h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+}
+
+.call-action .cta-trial p {
+  margin-bottom: 30px;
+}
 
 
 /*--------------------------------------------------------------
