@@ -622,7 +622,7 @@ line-height: 127%; /* 26.67px */
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -774,11 +774,38 @@ text-align: left;
   color: #04382B;
 }
 
+.tab-content .btn-read-more {
+  line-height: 0;
+  padding: 10px 30px;
+  border-radius: 28px;
+  transition: 0.5s;
+  color: #fff;
+  background: #053316;
+}
+.tab-content .btn-read-more span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.tab-content  .btn-read-more i {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.tab-content .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
 .features .feture-tabs .tab-content i {
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #04382B;
+  color: #fff;
 }
 
 .features .feature-icons {
@@ -2118,11 +2145,11 @@ color: #FF3600;
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #012970;
+  background-color: #04382B;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #013289;
+  background-color: #04382B;
 }
 
 .blog .blog-pagination {
