@@ -697,7 +697,7 @@ line-height: 127%; /* 26.67px */
 --------------------------------------------------------------*/
 
 .features{ 
-    padding: 40px 0
+    padding: 40px 0px
 }
 
 .features .feature-box {
@@ -850,6 +850,166 @@ text-align: left;
   font-size: 15px;
   color: #04382B;
 }
+
+/*--------------------------------------------------------------
+# Creador
+--------------------------------------------------------------*/
+
+.creador { 
+  padding-top: 0px;
+}
+
+.creador .feature-box {
+padding: 24px 20px;
+box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+transition: 0.3s;
+height: 100%;
+}
+
+.creador .feature-box h3 {
+font-size: 18px;
+text-align: left;
+font-weight: 700;
+margin: 0;
+}
+
+.creador .feature-box i {
+line-height: 0;
+background: #ecf3ff;
+padding: 4px;
+margin-right: 10px;
+font-size: 24px;
+border-radius: 3px;
+transition: 0.3s;
+}
+
+.creador .feature-box:hover i {
+background: #04382B;
+color: #fff;
+}
+
+.creador .feture-tabs {
+margin-top: 120px;
+}
+
+.creador .feture-tabs h3 {
+color: #04382B;
+font-weight: 700;
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+.creador .feture-tabs h3 {
+  font-size: 28px;
+}
+}
+
+.creador .feture-tabs .nav-pills {
+border-bottom: 1px solid #eee;
+}
+
+.creador .feture-tabs .nav-link {
+background: none;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 600;
+color: #04382B;
+padding: 12px 0;
+margin-right: 25px;
+margin-bottom: -2px;
+border-radius: 0;
+}
+
+.creador .feture-tabs .nav-link.active {
+color: #04382B;
+border-bottom: 3px solid #04382B;
+}
+
+.creador .feture-tabs .tab-content h4 {
+font-size: 18px;
+margin: 0;
+font-weight: 700;
+color: #04382B;
+}
+
+.tab-content .btn-read-more {
+line-height: 0;
+padding: 10px 30px;
+border-radius: 28px;
+transition: 0.5s;
+color: #fff;
+background: #053316;
+}
+.tab-content .btn-read-more span {
+font-family: "Raleway", sans-serif;
+font-weight: 600;
+text-align: center;
+font-size: 16px;
+letter-spacing: 1px;
+}
+
+.tab-content  .btn-read-more i {
+color: #fff;
+margin-left: 5px;
+font-size: 18px;
+transition: 0.3s;
+}
+
+.tab-content .btn-read-more:hover i {
+transform: translateX(5px);
+}
+
+.creador .feture-tabs .tab-content i {
+font-size: 24px;
+line-height: 0;
+margin-right: 8px;
+color: #fff;
+}
+
+.creador .feature-icons {
+margin-top: 0px;
+}
+
+.creador .feature-icons h3 {
+color: #F12525;
+font-weight: 700;
+font-size: 32px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+.creador .feature-icons h3 {
+  font-size: 28px;
+}
+}
+
+.creador .feature-icons .content .icon-box {
+display: flex;
+margin-top: 12px
+}
+
+.creador .feature-icons .content .icon-box h4 {
+text-align: left;
+font-size: 20px;
+font-weight: 700;
+margin: 0 0 10px 0;
+color: #F12525;
+}
+
+.creador .feature-icons .content .icon-box i {
+font-size: 44px;
+line-height: 44px;
+color: #F12525;
+margin-right: 15px;
+}
+
+.creador .feature-icons .content .icon-box p {
+font-size: 15px;
+color: #04382B;
+}
+
 
 /*--------------------------------------------------------------
 # Services
@@ -1189,6 +1349,10 @@ text-align: left;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+   padding: 0px 0px;
+   padding-top: 80px;
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -1428,6 +1592,9 @@ text-align: left;
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials{
+  padding-top: 80px;
+}
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
