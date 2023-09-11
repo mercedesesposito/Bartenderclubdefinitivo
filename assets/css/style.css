@@ -203,7 +203,7 @@ section {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: #04382B;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -256,8 +256,8 @@ section {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  color:#f5cc6d;
+  font-weight: 500;
+  color:#FFF6E0;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -273,7 +273,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #FA003C;
+  color: #f5cc6d;
 }
 
 .navbar .dropdown ul {
