@@ -286,6 +286,7 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
+  color: #04382B;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
@@ -483,7 +484,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
- background-color: #053316;
+  background-color: #04382b;
   background-image: url("../img/Frame\ 15.png");
   background-size: cover;
   background-attachment: scroll;
@@ -619,7 +620,7 @@ line-height: 127%; /* 26.67px */
   border-radius: 28px;
   transition: 0.5s;
   color: #fff;
-  background: #053316;
+  background: #04382b;
 }
 
 .about .btn-read-more span {
