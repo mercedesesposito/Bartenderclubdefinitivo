@@ -206,6 +206,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background-color: #04382B;
 }
 
 .header.header-scrolled {
@@ -237,6 +238,8 @@ section {
 # Header DEtails
 --------------------------------------------------------------*/
 .headerd {
+  transition: all 0.5s;
+  z-index: 997;
   padding: 20px 0;
 }
 
@@ -1558,6 +1561,42 @@ color: #F1DAAE;
   margin-bottom: 30px;
 }
 
+/*--------------------------------------------------------------
+#Banner DEtail
+--------------------------------------------------------------*/
+#cta2 {
+  background: url(../img/Drinks\ —\ Sidney\ Bensimon\ 1.png);
+  background-size: cover;
+  height: 250px;
+}
+
+#cta2 h5 {
+  color: #FFF6E0;
+  font-family: Caprasimo;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 40px;
+}
+
+#cta2 .btn {
+  margin: 30px 10px;
+}
+
+.call-action2 {
+  background: #f9f9f9;
+}
+
+.call-action2 .cta2-trial h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+}
+
+.call-action2 .cta2-trial p {
+  margin-bottom: 30px;
+}
 
 /*--------------------------------------------------------------
 #suscripciones
