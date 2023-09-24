@@ -555,7 +555,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #FDECE9;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -584,7 +584,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: #04382b;
   transition: 0.3s;
 }
 
@@ -618,7 +618,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #04382b;
 }
 
 .navbar-mobile .getstarted,
@@ -674,7 +674,7 @@ section {
 
 .hero h1 {
   margin: 0;
-  font-size: 52px;
+  font-size: 55px;
   color: #F1DAAE;
 }
 
@@ -739,7 +739,7 @@ text-align: center;
   }
 
   .hero .hero-img img {
-    width: 10%;
+    width: 20%;
     
   }
 }
@@ -775,8 +775,8 @@ text-align: center;
 }
 
 .herodetalle h1 {
-  margin: 0;
-  font-size: 52px;
+margin-top: 100px;
+  font-size: 55px;
   color: #F1DAAE;
 }
 
@@ -995,7 +995,7 @@ line-height: 127%; /* 26.67px */
 }
 
 .values .box img {
-  padding: 30px 50px;
+margin-bottom: 30px;
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -1006,6 +1006,8 @@ line-height: 127%; /* 26.67px */
   font-weight: 700;
   margin-bottom: 18px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -1199,7 +1201,7 @@ text-align: left;
 }
 
 .features .feature-icons .content .icon-box p {
-  font-size: 15px;
+  font-size: 16px;
   color: #04382B;
 }
 
@@ -1570,13 +1572,21 @@ color: #F1DAAE;
   height: 250px;
 }
 
-#cta2 h5 {
-  color: #FFF6E0;
+#cta2 h1 {
+  color: #FF3600;
   font-family: Caprasimo;
-  font-size: 32px;
+  margin-top: 20px;
+  font-size: 40px;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   line-height: 40px;
+}
+
+#cta2 h5 {
+  font-size: 21px;
+  font-weight: 800;
+  text-align: center;
+
 }
 
 #cta2 .btn {
@@ -1601,7 +1611,7 @@ color: #F1DAAE;
 /*--------------------------------------------------------------
 #suscripciones
 --------------------------------------------------------------*/
-.pricing{background-color: #F7941D;
+.pricing{background-color: #04382B;
   padding-bottom: 130px;
   padding-top: 80px;
  }
@@ -1658,7 +1668,7 @@ color: #F1DAAE;
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #16423D;
+  color: #04382B;
   text-align: center;
   line-height: 18px;
   font-size: 16px;
@@ -2289,7 +2299,7 @@ color: #04382B;
 # Features details
 --------------------------------------------------------------*/
 .detalles {
-  padding: 60px 0;
+  padding: 40px 0;
 
 }
 .detalles h1 {
@@ -2298,7 +2308,7 @@ color: #04382B;
 
 .detalles h5 {
   font-weight: 900;
-  font-size: 21px;
+  font-size: 19px;
   margin-bottom: 25px;
 }
 
@@ -3128,14 +3138,14 @@ color: #04382B;
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #4154f1;
+  background: #F7941D;
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
 }
 
 .footer .footer-newsletter form input[type=submit]:hover {
-  background: #5969f3;
+  background: #F7941D;
 }
 
 .footer .footer-top {
