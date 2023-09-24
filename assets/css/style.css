@@ -209,6 +209,7 @@ section {
 }
 
 .header.header-scrolled {
+  background-color: #04382B;
   background: #04382B;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
@@ -231,6 +232,40 @@ section {
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
+
+/*--------------------------------------------------------------
+# Header DEtails
+--------------------------------------------------------------*/
+.headerd {
+  padding: 20px 0;
+}
+
+.headerd .headerd-scrolled {
+  background-color: #FFF6E0;
+  background: #FFF6E0;
+  padding: 15px 0;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.headerd .logo {
+  line-height: 0;
+}
+
+.headerd .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.headerd .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -370,6 +405,145 @@ section {
   }
 
   .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
+
+/**
+* Desktop detail 
+*/
+.navbar2 {
+  padding: 0;
+}
+
+.navbar2 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar2 li {
+  position: relative;
+}
+
+.navbar2 a,
+.navbar2 a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color:#04382b;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar2 a i,
+.navbar2 a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar2 a:hover,
+.navbar2 .active,
+.navbar2 .active:focus,
+.navbar2 li:hover>a {
+  color: #f5cc6d;
+}
+
+.navbar2 .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar2 .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar2 .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.navbar2 .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar2 .dropdown ul a:hover,
+.navbar2 .dropdown ul .active:hover,
+.navbar2 .dropdown ul li:hover>a {
+  color: #FFF6E0;
+}
+
+.navbar2 .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar2 .megamenu {
+  position: static;
+}
+
+.navbar2 .megamenu ul {
+  margin-top: 5px;
+  right: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.navbar2 .megamenu ul li {
+  flex: 1;
+}
+
+.navbar2 .megamenu ul li a,
+.navbar2 .megamenu ul li:hover>a {
+  color: #013289;
+}
+
+.navbar2 .megamenu ul li a:hover,
+.navbar2 .megamenu ul li .active,
+.navbar2 .megamenu ul li .active:hover {
+  color: #4154f1;
+}
+
+.navbar2 .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar2 .dropdown .dropdown:hover>ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .navbar2 .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar2 .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -612,7 +786,7 @@ text-align: center;
 
 .herodetalle .price {
   font-size: 40px;
-  color: #FA003C;
+  color: #FF3600;
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
   margin-top: 70px
@@ -769,6 +943,46 @@ line-height: 127%; /* 26.67px */
 .about .btn-read-more:hover i {
   transform: translateX(5px);
 }
+
+
+/*--------------------------------------------------------------
+# Trago del mes
+--------------------------------------------------------------*/
+.tragom {
+  padding: 0px;
+  background-color: #F7941D;
+}
+
+.tragom h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.tragom h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.tragom p {
+color: #16423D;
+margin-top: 30px;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Raleway;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: 127%; /* 26.67px */
+}
+
+.tragom span {
+  margin-top: 100px;
+
+}
+  
+
 
 /*--------------------------------------------------------------
 # Values
@@ -1453,6 +1667,116 @@ color: #F1DAAE;
   color: #fff;
 }
 
+
+
+/*--------------------------------------------------------------
+#Pricing detalle
+--------------------------------------------------------------*/
+.detalleprice {
+  padding-bottom: 130px;
+  padding-top: 80px;
+ }
+.detalleprice .box {
+  padding: 30px 20px;
+  background: #FFF6E0;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.detalleprice .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.detalleprice h3 {
+  font-weight: 700;
+  font-size: 30x;
+  margin-bottom: 5px;
+}
+.detalleprice h5 {
+  font-weight: 700;
+  font-size: 30x;
+  margin-bottom: 25px;
+}
+.detalleprice .price {
+  font-size: 40px;
+  color: #FA003C;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 10px
+}
+
+.detalleprice .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.detalleprice .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.detalleprice img {
+  padding: 20px 40px;
+}
+
+.detalleprice ul {
+  padding: 0;
+  list-style: none;
+  color: #16423D;
+  text-align: center;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.detalleprice ul li {
+  padding-bottom: 10px;
+}
+
+.detalleprice ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.detalleprice .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #04382B ;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #04382B;
+}
+
+.detalleprice .btn-buy:hover {
+  background: #04382B;
+  color: #fff;
+}
+
+.detalleprice .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #FA003C;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
@@ -1921,6 +2245,75 @@ color: #04382B;
   right: 8px;
   opacity: 1;
 }
+
+/*--------------------------------------------------------------
+# Features details
+--------------------------------------------------------------*/
+.detalles {
+  padding: 60px 0;
+
+}
+.detalles h1 {
+color: #04382B;
+}
+
+.detalles h5 {
+  font-weight: 900;
+  font-size: 21px;
+  margin-bottom: 25px;
+}
+
+.detalles .member {
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.detalles .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.detalles .member .social a:hover {
+  color: rgba(1, 41, 112, 0.8);
+}
+
+.detalles .member .social i {
+  font-size: 18px;
+}
+
+.detalles .member .member-info {
+  padding: 10px 15px 20px 15px;
+}
+
+.detalles .member .member-info h4 {
+  font-weight: 1000;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #012970;
+}
+
+.detalles .member .member-info span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #04382B;
+}
+
+.detalles .member .member-info p {
+  font-size: 18px;
+  padding-top: 15px;
+  line-height: 26px;
+  color: #16423D;
+}
+
+.detalles .member:hover .social {
+  right: 8px;
+  opacity: 1;
+}
+
 
 /*--------------------------------------------------------------
 # Clients
@@ -2652,14 +3045,14 @@ color: #04382B;
 --------------------------------------------------------------*/
 .footer {
   background: #04382B;
-  padding: 0 0 30px 0;
+  padding: 0 0 0px 0;
   font-size: 14px;
 }
 
 .footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f6f9ff;
-  border-top: 1px solid #e1ecff;
+  padding: 50px 50px;
+  background: #FFF6E0;
+  border-top: 60px ;
 }
 
 .footer .footer-newsletter h4 {
