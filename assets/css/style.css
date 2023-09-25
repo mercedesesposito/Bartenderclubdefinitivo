@@ -938,6 +938,12 @@ opacity: 100%;
   text-transform: uppercase;
 }
 
+.about img{
+  padding-top:60px;
+  padding-left:60px;
+  padding-bottom:60px;
+}
+
 .about h2 {
   font-size: 24px;
   font-weight: 700;
@@ -986,6 +992,9 @@ line-height: 127%; /* 26.67px */
 @media (max-width: 768px) {
   .about{
     text-align: center;
+  }
+  .about img{
+    padding:0px
   }
 }
   
