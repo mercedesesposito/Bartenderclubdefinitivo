@@ -835,62 +835,79 @@ margin-top: 100px;
   letter-spacing: 1px;
 }
 
-.hero2 .btn-get-started i {
+.herodetalle .btn-get-started i {
   margin-left: 5px;
   font-size: 18px;
   transition: 0.3s;
 }
 
-.hero2 .btn-get-started:hover i {
+.herodetalle  .btn-get-started:hover i {
   transform: translateX(5px);
 }
 
-.hero2 .hero-img {
-  text-align: center;
-  margin-bottom: -20px;
-  height: 300px;  
-  vertical-align: bottom;
-  align-self: flex-end;
+.herodetalle  .hero-img {
+  opacity: 0%;
 }
 
 @media (min-width: 1024px) {
-  .hero2 {
+  .herodetalle  {
     background-attachment: fixed;
     padding: 0px 0 0px 0;
   }
 }
 
 @media (max-width: 991px) {
-  .hero2 {
-    height: auto;
+  .herodetalle  {
+    text-align: cent;
+    height: 950px;
+    padding-bottom: 50px;
     padding: 0px 0 0px 0;
   }
 
-  .hero2 .hero-img {
+  .herodetalle .price {
+    font-size: 40px;
+    color: #FF3600;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 60px
+  }
+.herodetalle  h1{
+  margin-top: 10px;
+  padding-top: 50px;
+  font-size: 50px;
+}
+  .herodetalle  h2 {
+    font-size: 19px;
+    margin-bottom: 50px;
+  }
+  .herodetalle  h6 {
+    font-size: 25px;
+  }
+  .herodetalle .hero-img {
 text-align: center;
  
   }
 
-  .hero2 .hero-img img {
+  .herodetalle h6{
+
+  }
+
+  .herodetalle .hero-img img {
     width: 10%;
     
   }
 }
 
 @media (max-width: 768px) {
-  .hero2 {
+  .herodetalle {
     text-align: center;
   }
 
-  .hero2 h1 {
-    font-size: 32px;
+  .herodetalle h1 {
   }
 
-  .hero2 h2 {
-    font-size: 24px;
-  }
 
-  .hero2 .hero-img img {
+  .herodetalle .hero-img img {
     width: 100%;
   }
 }
@@ -966,12 +983,6 @@ line-height: 127%; /* 26.67px */
   background-color: #F7941D;
 }
 
-.tragom h3 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #4154f1;
-  text-transform: uppercase;
-}
 
 .tragom h2 {
   font-size: 24px;
@@ -992,6 +1003,17 @@ line-height: 127%; /* 26.67px */
 
 .tragom span {
   margin-top: 100px;
+
+}
+
+@media (max-width: 991px) {
+  .tragom h1{
+    margin-top: 60px;
+  }
+
+  .tragom{
+    padding-bottom: 60px;
+  }
 
 }
   
@@ -1579,6 +1601,17 @@ color: #F1DAAE;
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  #cta h5 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+  
+
+
+
 /*--------------------------------------------------------------
 #Banner DEtail
 --------------------------------------------------------------*/
@@ -1622,6 +1655,20 @@ color: #F1DAAE;
 
 .call-action2 .cta2-trial p {
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  #cta2{
+    padding: 30px;
+    height: 270px;
+  }
+  #cta2 h5 {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  #cta2 h1 {
+   font-size: 35px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1840,6 +1887,13 @@ color: #F1DAAE;
   padding: 1px 0 3px 0;
   background: #FA003C;
   color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .detalleprice{
+   padding-bottom: 60px;
+  }
 }
 
 /*--------------------------------------------------------------
