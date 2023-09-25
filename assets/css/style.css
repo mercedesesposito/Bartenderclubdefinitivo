@@ -891,6 +891,7 @@ margin-top: 100px;
   }
   .herodetalle .hero-img {
 text-align: center;
+opacity: 100%;
  
   }
 
@@ -900,6 +901,7 @@ text-align: center;
 
   .herodetalle .hero-img img {
     width: 10%;
+    opacity: 100%;
     
   }
 }
