@@ -724,24 +724,33 @@ section {
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+    background-position: left;
     padding: 0px 0 0px 0;
   }
 }
 
 @media (max-width: 991px) {
   .hero {
-    height: auto;
+    background-image: url("../img/responsivehero.png");
+    height: 800px;
     padding: 0px 0 0px 0;
   }
 
   .hero .hero-img {
-text-align: center;
+    text-align: center;
+    margin-bottom: -20px;
+    height: 300px;  
+    vertical-align: bottom;
+    align-self: flex-end;
  
   }
 
   .hero .hero-img img {
-    width: 20%;
-    
+    text-align: center;
+    margin-bottom: -20px;
+    height: 300px;  
+    vertical-align: bottom;
+    align-self: flex-end;
   }
 }
 
@@ -759,7 +768,7 @@ text-align: center;
   }
 
   .hero .hero-img img {
-    width: 100%;
+    opacity: 0%;
   }
 }
 
