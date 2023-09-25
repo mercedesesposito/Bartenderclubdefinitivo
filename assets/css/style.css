@@ -999,7 +999,11 @@ line-height: 127%; /* 26.67px */
   background-color: #F7941D;
 }
 
-
+.tragom img{
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-bottom: 50px;
+}
 .tragom h2 {
   font-size: 24px;
   font-weight: 700;
