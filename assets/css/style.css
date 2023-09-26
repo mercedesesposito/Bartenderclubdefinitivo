@@ -1396,6 +1396,15 @@ transition: 0.3s;
 transform: translateX(5px);
 }
 
+@media (max-width: 768px) {
+  .tab-content .centrarboton {
+ margin-right: auto;
+ margin-left: auto;
+  }
+ 
+  }
+
+
 .creador .feture-tabs .tab-content i {
 font-size: 24px;
 line-height: 0;
@@ -1656,10 +1665,17 @@ color: #F1DAAE;
 }
 
 @media (max-width: 768px) {
-  #cta h5 {
+  #cta{
+    background: url(../img/trago\ zzomin.png);
+    background-size:cover;
+    height: auto;
+  }
+  #cta h1 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 20px;
+    line-height: 30px;
+ 
   }
 }
   
@@ -2307,7 +2323,10 @@ color: #F1DAAE;
   .testimonials .swiper-slide-active {
     opacity: 1;
   }
-
+.testimonials .section-header {
+  margin: 0px;
+  padding: 0px;
+}
   .testimonials .swiper-pagination {
     margin-top: 0;
   }
