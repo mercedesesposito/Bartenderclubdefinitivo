@@ -2180,6 +2180,19 @@ color: #F1DAAE;
   right: 15px;
 }
 
+@media (max-width: 911px) {
+  .portfolio-item .hiddenmobile{
+   display: hidden;
+  }
+  .portfolio-info .hiddenmobile{
+    display: hidden;
+   }
+   .portfolio-links .hiddenmobile{
+    display: hidden;
+   }
+}
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -2245,6 +2258,11 @@ color: #F1DAAE;
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .portfolio-details .hiddenmobile{
+   display: hidden;
+  }
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
