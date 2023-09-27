@@ -894,11 +894,6 @@ text-align: center;
 opacity: 100%;
  
   }
-
-  .herodetalle h6{
-
-  }
-
   .herodetalle .hero-img img {
     width: 10%;
     opacity: 100%;
@@ -910,11 +905,6 @@ opacity: 100%;
   .herodetalle {
     text-align: center;
   }
-
-  .herodetalle h1 {
-  }
-
-
   .herodetalle .hero-img img {
     width: 100%;
   }
@@ -1043,6 +1033,9 @@ line-height: 127%; /* 26.67px */
   .tragom{
     padding-bottom: 60px;
     text-align: center;
+  }
+  .tragom img{
+    padding: 0px;
   }
 
 }
@@ -1727,17 +1720,29 @@ color: #F1DAAE;
   margin-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 911px) {
   #cta2{
     padding: 30px;
     height: 270px;
   }
   #cta2 h5 {
-    font-size: 19px;
+    font-size: 16px;
     margin-top: 20px;
   }
   #cta2 h1 {
-   font-size: 35px;
+   font-size: 28px;
+   text-align: center;
+   margin-bottom: 20px;
+   line-height: 30px;
+  }
+ 
+  }
+
+@media (max-width: 911px) {
+  #cta2{
+    background: url(../img/Banner\ mobile\ detallee.png);
+    background-size:cover;
+    height: auto;
   }
 }
 
