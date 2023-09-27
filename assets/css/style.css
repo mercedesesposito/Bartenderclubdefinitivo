@@ -2401,25 +2401,7 @@ color: #04382B;
   z-index: 1;
 }
 
-.team .member .social {
-  position: absolute;
-  right: -100%;
-  top: 30px;
-  opacity: 0;
-  border-radius: 4px;
-  transition: 0.5s;
-  background: rgba(255, 255, 255, 0.3);
-  z-index: 2;
-}
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: rgba(1, 41, 112, 0.5);
-  margin: 15px 12px;
-  display: block;
-  line-height: 0;
-  text-align: center;
-}
 
 .team .member .social a:hover {
   color: rgba(1, 41, 112, 0.8);
@@ -2454,10 +2436,7 @@ color: #04382B;
   color: #04382B;
 }
 
-.team .member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
+
 
 .team .member:hover .social {
   right: 8px;
