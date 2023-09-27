@@ -2398,10 +2398,8 @@ color: #04382B;
   width: 100%;
   background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
-  z-index: 1;
+
 }
-
-
 
 .team .member .social a:hover {
   color: rgba(1, 41, 112, 0.8);
@@ -2441,6 +2439,15 @@ color: #04382B;
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .team .member .member-img {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
